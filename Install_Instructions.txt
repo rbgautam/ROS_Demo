@@ -1,0 +1,10 @@
+Intall virtual box
+Install Unbuntu 16.04 LTS
+	-Allocate 20 GB 
+	-Enable 3d Acceleration and
+	-Allocate 2 CPUs
+
+Once installed
+	-Goto Software and Updates and enable all checkboxes for updates
+Open Terminal 					 
+ 	-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release-sc) main" > /etc/apt/sources.list.d/ros-latest.list'
